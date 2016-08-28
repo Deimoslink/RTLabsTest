@@ -1,0 +1,89 @@
+body {
+	min-width: 1024px;
+	background: url("background.jpg") no-repeat fixed center;
+	background-size: cover;
+}
+
+ul.dropdown-menu {
+	padding: 0;
+	margin: 0;
+}
+
+.dropdown li a {
+	height:50px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+.navbar, .dropdown-menu {
+	border-radius: 0px;
+}
+
+.dropdown-menu {
+	background-color: rgba(255,255,255,.9)
+}
+
+* {
+    -webkit-transition:300ms ease;
+    -moz-transition:300ms ease;
+    -o-transition:300ms ease;
+    transition:300ms ease;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+}
+
+.navbar-wrapper {
+	margin:auto;
+	height:50px;
+	min-width: 1024px;
+	max-width: 1280px;
+	text-align: center;
+}
+
+.navbar-nav {
+	width:100%;
+}
+
+.dropdown.open,
+.navbar-nav li,
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+	background: linear-gradient(to right, rgba(117, 179, 228, .5), rgba(84, 149, 218, .5));
+}
+
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2));
+}
+
+.navbar-nav li a {
+	color: #FFF;
+}
+
+.dropdown-menu li {
+	min-width: auto;
+}
+
+.dropdown-menu li {
+	width: 100%
+}
+
+.navbar {
+	border: none;
+}
+
+.head {
+	background: linear-gradient(to right, rgba(115, 165, 203, 1), rgba(82, 135, 194, 1));
+}
+
